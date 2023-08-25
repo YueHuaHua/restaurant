@@ -1,0 +1,143 @@
+.align-right {
+    text-align: right !important;
+}
+
+.align-center {
+    text-align: center !important;
+}
+
+.custom-header {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 90;
+    display: block;
+    background: #090c0f;
+}
+
+.topline {
+    padding: 10px 30px;
+}
+
+.custom-header .row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.h-group {
+    font-size: 14px;
+    color: #ced2d5;
+    text-transform: uppercase;
+}
+
+.h-group em,
+.h-group i {
+    color: var(--dark-yellow);
+    font-style: normal;
+}
+
+.custom-navbar {
+    padding: 20px 30px;
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 3;
+}
+
+.main-menu {
+    vertical-align: middle;
+}
+
+.main-menu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.main-menu ul li {
+    margin-left: 15px;
+    margin-right: 15px;
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.main-menu ul li:first-child {
+    padding-left: 0;
+}
+
+.h-btn {
+    margin-left: 50px;
+    vertical-align: middle;
+}
+
+.custom-btn {
+    padding: 0 32px;
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    vertical-align: top;
+    font-size: 14px;
+    color: #FFF;
+    font-weight: 500;
+    letter-spacing: 0.03em;
+    height: 50px;
+    line-height: 48px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    background: var(--dark-red);
+    border: none;
+    outline: none !important;
+    box-shadow: none !important;
+    outline: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.logo a {
+	color: #FFF;
+	font-family: "Roboto Slab", "Times New Roman", serif;
+	font-weight: 700;
+	font-size: 3rem;
+    text-decoration: none;
+}
+
+.main-menu ul li a {
+    display: inline-block;
+    color: #fff;
+    font-size: 14px;
+    line-height: 50px;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.main-menu ul li a:hover {
+    color: var(--dark-yellow);
+}
+
+
+@media screen and (max-width: 1024px) {
+    .header {
+        position: fixed;
+    }
+
+    .topline {
+        display: none;
+    }
+    
+    .main-menu {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .header .col-xs-12 {
+        width: auto;
+    }
+}

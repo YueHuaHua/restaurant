@@ -1,0 +1,17 @@
+:root{
+    --dark-red: #9F0102;
+    --bright-red: #FF0114;
+    --dark-yellow: #D7AA2E;
+    --bright-yellow: #F3C43E;
+    --dark-tosca: #068b76;
+    --bright-tosca: #52AFA4;
+}
+
+.custom-spinner {
+    width: 3rem; 
+    height: 3rem;
+}
+
+nav h1 {
+    color: var(--bright-red);
+}
